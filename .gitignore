@@ -6,6 +6,7 @@
 # plugins and themes directories
 wp-content/*
 !wp-content/plugins/
+!wp-content/uploads/
 !wp-content/themes/
 wp-content/themes/twenty*
 
