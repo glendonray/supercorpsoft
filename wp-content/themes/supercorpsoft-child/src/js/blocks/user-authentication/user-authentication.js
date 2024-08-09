@@ -125,7 +125,7 @@ class UserAuthBlock {
     // Hide forms and display a message indicating the user is logged in
     this.registerWrapper.style.display = "none";
     this.loginWrapper.style.display = "none";
-    this.blockElement.innerHTML = `<p>You are logged in! <button id="logout-button" type="button">Logout</button>?</p>`;
+    this.blockElement.innerHTML = `<div class="form-error-wrapper"><p class="success-title">You are logged in!</p><p><button id="logout-button" type="button">Logout</button>?</p></div>`;
     this.setupLogoutButton(); // Set up the logout button
   }
 

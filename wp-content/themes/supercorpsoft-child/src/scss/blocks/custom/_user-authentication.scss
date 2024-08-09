@@ -41,6 +41,7 @@
 .auth-bg-wrapper {
   position: relative;
   overflow: hidden;
+  display: flex;
   .auth-bg-image {
     position: absolute;
     width: 100%;
@@ -77,7 +78,13 @@ h2.promo-heading {
 
 @media (max-width: 781px) {
   .column-reverse-on-mobile {
-    flex-direction: column-reverse;
+    display: grid !important;
+    .wp-block-column:nth-child(1) {
+      order: 2;
+    }
+    .wp-block-column:nth-child(2) {
+      order: 1;
+    }
   }
   .min-height-0-mobile {
     min-height: 0 !important;
