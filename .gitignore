@@ -8,7 +8,7 @@ wp-content/*
 !wp-content/plugins/
 !wp-content/uploads/
 !wp-content/themes/
-wp-content/themes/twenty*
+# wp-content/themes/twenty*
 
 # ignore all files starting with . or ~
 .*
