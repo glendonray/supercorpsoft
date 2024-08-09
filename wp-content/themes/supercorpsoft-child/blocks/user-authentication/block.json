@@ -1,0 +1,26 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "gg/user-authentication",
+  "title": "User Authentication",
+  "description": "A block that can display a user authentication form.",
+  "style": ["file:./user-authentication.css"],
+  "viewScript": [
+    "file:./user-authentication-min.js",
+    "user-authentication-script"
+  ],
+  "category": "supercorpsoft",
+  "icon": "grid-view",
+  "keywords": ["authentication", "Login"],
+  "acf": {
+    "mode": "preview",
+    "renderTemplate": "user-authentication.php"
+  },
+  "supports": {
+    "anchor": true,
+    "color": {
+      "background": true,
+      "text": true
+    }
+  }
+}

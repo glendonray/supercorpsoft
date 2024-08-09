@@ -1,0 +1,37 @@
+// Override bootstrap variables or define your own variables in _variables.scss
+@import "variables";
+
+// Basetheme SCSS files. Add additional templates here.
+@import "mixins";
+
+// Common styles
+@import "common";
+
+// Blocks and widgets
+@import "wordpress";
+@import "blocks";
+@import "widgets";
+
+// Forms/Inputs
+@import "forms";
+
+// Forms/Inputs
+@import "forms";
+
+// Template parts and templates
+@import "site-header";
+@import "site-footer";
+@import "blog";
+
+// Pages
+// @import "./pages/home";
+
+// Plugins
+
+// Animations
+@import "animations";
+
+// Utilities
+@import "utilities";
+
+// Vendor Overwrites

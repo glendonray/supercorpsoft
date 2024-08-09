@@ -1,0 +1,42 @@
+body {
+}
+
+/*
+	  Buttons
+  */
+.btn,
+.button,
+input[type="submit"] {
+  // transition: color $speed $ease, background-color $speed $ease,
+  //   opacity $speed $ease, border-color $speed $ease, box-shadow $speed $ease,
+  //   transform $speed $ease;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 56px;
+  gap: 10px;
+  background: #2e236c;
+  border-width: 0;
+  border-style: solid;
+  border-color: #2e236c;
+  border-radius: 100px;
+  color: #fff;
+  font-size: 16px;
+  line-height: 28px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: $speed $ease;
+
+  &:hover,
+  &:focus {
+    text-decoration: none;
+    background-color: #fff;
+    color: #4f5359;
+    border-width: 2px;
+  }
+  &:focus {
+    border-width: 3px;
+  }
+}
